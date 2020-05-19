@@ -8,5 +8,10 @@ def hello_world():
            'This really works automatically!'
 
 
+@example_app.route('/aviad')
+def hello_world():
+    return 'Aviad is the king of the world!'
+
+
 if __name__ == '__main__':
     example_app.run()
