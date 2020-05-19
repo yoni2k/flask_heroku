@@ -9,7 +9,7 @@ def hello_world():
 
 
 @example_app.route('/aviad')
-def hello_world():
+def aviad():
     return 'Aviad is the king of the world!'
 
 
